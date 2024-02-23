@@ -1,3 +1,5 @@
+// import React, { useEffect, useRef, useState } from "react";
+import Carousel from '@/components/carousel';
 import Image from 'next/image';
 
 export default function Home() {
@@ -20,26 +22,29 @@ export default function Home() {
           placeholder="Search"
         />
       </div>
-    </div>
+      </div>
         <span>Contacts</span>
       </nav>
-    <div className="w-64 h-64 bg-gray-200 flex items-center justify-center">
-      <Image
-        src="/path/to/your/image.jpg"
-        alt="Description of your image"
+    <div className=" bg-[url('/assets/banner.svg')] w-full h-352 bg-gray-200 flex items-center justify-center">
+      {/* <Image
+        src="/assets/banner.svg"
+        alt="banner"
         width={300}
         height={300}
-        className="max-w-full max-h-full"
-      />
+        className="max-w-full w-full max-h-full"
+      /> */}
       <Image
-        src="/path/to/your/image.jpg"
-        alt="Description of your image"
+        src="/assets/logo.svg"
+        alt="logo"
         width={300}
         height={300}
-        className="max-w-full max-h-full"
+        className="max-h-full z-50 ml-5"
       />
     </div>
-
+    <div>
+      <h2>Categories</h2>
+      <Carousel />
+    </div>
     </>
   );
 }

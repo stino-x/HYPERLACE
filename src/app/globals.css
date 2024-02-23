@@ -7,3 +7,26 @@
   -moz-box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.54);
   box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.54);
 }
+
+.swiper-button-prev {
+  background-image: url(/assets/homecarousel/arrow.svg) !important;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  transform: rotate(180deg);
+}
+
+.swiper-button-next {
+  background-image: url(/assets/homecarousel/arrow.svg) !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
