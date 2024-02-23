@@ -2,6 +2,7 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -20,23 +21,108 @@ export default function Carousel() {
         // }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        slidesPerView={4}
+        slidesPerView={5}
         spaceBetween={15}
-        centeredSlides={true}
+        centeredSlidesBounds={true}
         // pagination={{
         //   clickable: true,
         // }}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>      
+        <Image
+        src="/assets/homecarousel/carousel1.svg"
+        alt="logo"
+        width={266}
+        height={300}
+        className="max-h-full z-50"
+        />
+        </SwiperSlide>
+        <SwiperSlide>      
+        <Image
+        src="/assets/homecarousel/carousel1.svg"
+        alt="logo"
+        width={266}
+        height={300}
+        className="max-h-full z-50"
+        />
+        </SwiperSlide>
+        <SwiperSlide>      
+        <Image
+        src="/assets/homecarousel/carousel1.svg"
+        alt="logo"
+        width={266}
+        height={300}
+        className="max-h-full z-50"
+        />
+        </SwiperSlide>
+        <SwiperSlide>      
+        <Image
+        src="/assets/homecarousel/carousel1.svg"
+        alt="logo"
+        width={266}
+        height={300}
+        className="max-h-full z-50"
+        />
+        </SwiperSlide>
+        <SwiperSlide>      
+        <Image
+        src="/assets/homecarousel/carousel1.svg"
+        alt="logo"
+        width={266}
+        height={300}
+        className="max-h-full z-50"
+        />
+        </SwiperSlide>
+        <SwiperSlide>      
+        <Image
+        src="/assets/homecarousel/carousel1.svg"
+        alt="logo"
+        width={266}
+        height={300}
+        className="max-h-full z-50"
+        />
+        </SwiperSlide>
+        <SwiperSlide>      
+        <Image
+        src="/assets/homecarousel/carousel1.svg"
+        alt="logo"
+        width={266}
+        height={300}
+        className="max-h-full z-50"
+        />
+        </SwiperSlide>
+        <SwiperSlide>      
+        <Image
+        src="/assets/homecarousel/carousel1.svg"
+        alt="logo"
+        width={266}
+        height={300}
+        className="max-h-full z-50"
+        />
+        </SwiperSlide>
+        <SwiperSlide>      
+        <Image
+        src="/assets/homecarousel/carousel1.svg"
+        alt="logo"
+        width={266}
+        height={300}
+        className="max-h-full z-50"
+        />
+        </SwiperSlide>
+        <SwiperSlide>      
+        <Image
+        src="/assets/homecarousel/carousel1.svg"
+        alt="logo"
+        width={266}
+        height={300}
+        className="max-h-full z-50"
+        />
+        </SwiperSlide>
+        {/* <SwiperSlide>Slide 6</SwiperSlide>
         <SwiperSlide>Slide 7</SwiperSlide>
         <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide> */}
       </Swiper>
     </>
   );

@@ -8,6 +8,10 @@
   box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.54);
 }
 
+.swiper {
+  height: 401px;
+}
+
 .swiper-button-prev {
   background-image: url(/assets/homecarousel/arrow.svg) !important;
   background-repeat: no-repeat;
@@ -29,4 +33,9 @@
 
 .swiper-button-prev::after {
   display: none;
+}
+
+.swiper-slide {
+  /* border: 1px solid red; */
+  max-width: 266px;
 }
