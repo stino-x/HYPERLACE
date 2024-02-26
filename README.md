@@ -35,6 +35,17 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## stuff you could look to implement later:
+{/* <div className="item-hints">
+           <div className="hint" data-position="4">
+             <span className="hint-radius"></span>
+             <span className="hint-dot"></span>
+             <div className="hint-content do--split-children">
+               <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+             </div>
+           </div>
+        </div> */} ##styling already in tooltip style file
+
 ## Errors encountered:
 - Uncaught Error: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function at eval (webpack-internal:///(rsc)/./node_modules/swiper/swiper-react.mjs:122:94) at (rsc)/./node_modules/swiper/swiper-react.mjs (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\.next\server\vendor-chunks\swiper.js:400:1) at __webpack_require__ (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\.next\server\webpack-runtime.js:33:42) at eval (webpack-internal:///(rsc)/./src/components/carousel.tsx:9:70) at (rsc)/./src/components/carousel.tsx (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\.next\server\app\page.js:206:1) at __webpack_require__ (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\.next\server\webpack-runtime.js:33:42) at eval (webpack-internal:///(rsc)/./src/app/page.tsx:7:78) at (rsc)/./src/app/page.tsx (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\.next\server\app\page.js:195:1) at Function.__webpack_require__ (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\.next\server\webpack-runtime.js:33:42) at async eq (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402260) at async tr (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:405987) at async tn (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:406537) at async tn (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:406668) at async tu (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2057) at async (file://C:\Users\Danskids\Desktop\ALL MY PROJECTS\KEVSSTORE\hyperlace\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2564)
 SOLUTION:

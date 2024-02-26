@@ -21,7 +21,13 @@ const config: Config = {
       },
       top: {
         '89%' : '89%',
-      }
+      },
+      width: {
+        '40': '40%',
+      },
+      inset: {
+        '50': '50%',
+      },
     },
   },
   plugins: [],

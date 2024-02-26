@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cinzel, Roboto } from "next/font/google";
-import "./globals.css";
+import "../styles/globals.css";
+import "../styles/tooltip.css";
 
 const cinzel = Cinzel({
   subsets: ["latin"],
