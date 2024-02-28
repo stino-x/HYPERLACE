@@ -50,7 +50,7 @@
 }
 
 .category {
-  width: clamp(16.25rem, 16.625rem, 16.8rem);
+  width: clamp(16.25rem, 16.625rem, 20.8rem);
   height: clamp(20rem, 20.4375rem, 21rem);
   border: 1px solid purple;
 }
@@ -108,5 +108,27 @@
   .category-section img {
     width: 95% !important;
     height: 95% !important;
+  }
+}
+
+@media screen and (min-width: 570px) and (max-width: 768px) {
+  .category {
+    width: 100%;
+
+    /* height: 100%; */
+    border: 1px solid purple;
+  }
+
+  .figure:hover img {
+    transform: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1127px) {
+  .category {
+    width: 100%;
+
+    /* height: 100%; */
+    border: 1px solid purple;
   }
 }
