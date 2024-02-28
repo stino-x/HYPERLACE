@@ -30,21 +30,22 @@ export default function Listitems() {
 
   return (
     <>
+      {/* flex items-center w-2/3 flex-wrap gap-3 BREAKPOINT FOR LIST */}
       <div className="flex justify-between mb-4">
-        <ul className={`flex flex-wrap gap-3${showAllItems ? 'max-h-12' : ''}`}>
+        <ul className="flex items-center gap-3">
           {items.map((item) => (
             <li key={item.id} className="roboto menu-link font-thin hover:font-bold">
               {item.text}
             </li>
           ))}
-            <li>
+            <li className="flex" onClick={toggleShowAllItems}>
+            <span className="roboto">{showAllItems ? 'LESS' : 'MORE'}</span>  
             <IoIosArrowForward
-              className="text-2xl cursor-pointer transform rotate-90-left-cw"
-              onClick={toggleShowAllItems}
+              className={`text-2xl flex-2 cursor-pointer transform ${showAllItems ? 'rotate-90-left-cw' : 'rotate-90-right-cw'}`}
              />
             </li>
         </ul>
-        <span className="hover:font-bold contact pointer max-[768px]:hidden">CONTACT</span>
+        <span className="hover:font-bold contact row-span-1 pointer max-[768px]:hidden">CONTACT</span>
       </div>
     </>
   );

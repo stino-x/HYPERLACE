@@ -24,6 +24,7 @@ const config: Config = {
       },
       width: {
         '40': '40%',
+        '50': '50%',
       },
       inset: {
         '50': '50%',
