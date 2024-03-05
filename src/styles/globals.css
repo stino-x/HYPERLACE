@@ -83,6 +83,11 @@
   font-family: var(--font-roboto);
 }
 
+.bigpicture {
+  width: 100% !important;
+  height: 100% !important;
+}
+
 @media (max-width: 768px) {
   .search-box {
     -webkit-box-shadow: none;
