@@ -6,7 +6,7 @@ export default function Page() {
     <div>
       <h1 className="w-3/5 ml-auto mr-auto mb-[5%] mt-5 text-center cinzel text-5xl">HYPERLACE</h1>
       <Mosaic />
-      <div className="modal-container max-h-full w-3/4 h-full absolute top-[50%] left-[50%] right-[50%] bottom-[50%] translate-x-[-50%] translate-y-[-10%] z-10">
+      <div className="modal-container fade-in-bottom  max-h-full w-[50%] h-[80%] fixed top-[50%] left-[50%] right-[50%] bottom-[50%] translate-x-[-50%] translate-y-[-50%] z-10">
         <div className="grid w-full h-full grid-cols-1 grid-rows-1">
           <Image
             src={`/assets/picturegrid.svg`}
