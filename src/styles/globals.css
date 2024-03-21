@@ -137,3 +137,10 @@
     border: 1px solid purple;
   }
 }
+
+/* ...........................mobile show page............ */
+
+.single {
+  width: 95% !important;
+  height: 95% !important;
+}

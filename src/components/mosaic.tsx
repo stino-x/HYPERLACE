@@ -5,7 +5,7 @@ export default function Mosaic() {
 
 
   return (
-    <div>
+    <div className="hidden min-[768px]:block">
       <div className="collage border-yellow-500 w-full grid grid-rows-3 grid-cols-5 gap-x-2 gap-y-6">
         <div className="border-red-500 col-start-1 col-end-3 row-start-1 row-end-3">
         <Image
